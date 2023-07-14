@@ -1,0 +1,31 @@
+let prompt = require(`prompt-sync`)()
+
+let valortotaldacompra = parseInt(prompt("Digite o valor total da sua compra: "))
+
+if (valortotaldacompra>=200) {
+
+    console.log("Desconto de 20%")
+
+    console.log(valortotaldacompra*0.2)
+
+    console.log("Valor da compra com desconto:"+(valordacompra=(valortotaldacompra)-(valortotaldacompra*.2)))
+
+
+} else if (valortotaldacompra >=100.01 && valortotaldacompra<=200) {
+
+    console.log("Desconto de 10%")
+
+    console.log(valortotaldacompra*0.1)
+
+    console.log("Valor da compra com desconto:"+(valordacompra=(valortotaldacompra)-(valortotaldacompra*.2))) 
+
+} else {
+
+    console.log("Você não tem direito ao desconto")
+}
+ 
+
+
+
+
+

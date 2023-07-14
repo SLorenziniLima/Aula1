@@ -1,0 +1,13 @@
+let prompt = require(`prompt-sync`) ()
+
+let anonascimento = parseInt(prompt ("Digite o ano do seu nascimento: "))
+let anoatual = parseInt(prompt("Digite o ano atual: "))
+
+if ((anonascimento)-(anoatual)>=18) {
+
+    console.log ("Você é maior de idade")
+
+} else {
+
+    console.log("Você não é maior de idade")
+}
